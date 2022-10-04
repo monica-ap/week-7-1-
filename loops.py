@@ -22,16 +22,33 @@ def loop():
    # print(sum)
 
 
-names=["mary", "john", "david", "thomas", "janette"]
+#names=["mary", "john", "david", "thomas", "janette"]
 
 #for name in names:
   #if name.startswith("j"):
    # print(f"this {name} starts with j")
 
 #dictionaries
-dic= {"key1": "a", "key2": "b", "key3": "c"}
-for item in dic:
-  print(item)
+#dic= {"key1": "a", "key2": "b", "key3": "c"}
+#for item in dic:
+  #print(item)
+
+
+#for a,b in dic.items():
+ # print(a,b)
+
+#while loops
+#  coins = 30
+#  while coins< 40:
+#    print(f"I have {coins}")
+#    coins += 1
+
+
+answer = "y"
+while answer=="y":
+  answer = input("do you want to continue(y/n)")
+else:
+  print("thank you")
   # For Loops Practice #1
   # Using For loops, greet all members of a class, printing "Hello" + their name.
   
